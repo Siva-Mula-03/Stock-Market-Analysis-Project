@@ -1,0 +1,21 @@
+typedef struct 
+{
+    float open_price;
+    float high_price;
+    float low_price;
+    float close_price;
+    float volume;
+    char Present_date[20];
+} Stock;
+//Stock A;
+//a.open_prize=1;
+
+
+typedef struct {
+    char name[50];
+  	struct   date start_date ;
+    struct date end_date;
+    int no_of_days;
+    Stock stock[MAX_SIZE];
+}company;
+company data[10];
